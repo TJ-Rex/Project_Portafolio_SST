@@ -20,15 +20,15 @@
                 </div>
                 <nav id="nav">
                     <ul>
-                        <li><a href="#inicio">INICIO</a></li>
-                        <li><a href="#sonbremi">SOBRE MI</a></li>
-                        <li><a href="#skill">SKILLS</a></li>
-                        <li><a href="#curriculum">CURRICULUM</a></li>
-                        <li><a href="#portafolio">PORTAFOLIO</a></li>
-                        <li><a href="#contacto">CONTACTO</a></li>
+                        <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                        <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                        <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                        <li><a href="#portafolio"onclick="seleccionar()">PORTAFOLIO</a></li>
+                        <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
                     </ul>
                 </nav>
-                <div class="nav-responsive">
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </header>
@@ -86,7 +86,7 @@
                         </li>
                         <li>
                             <strong>Cargo</strong>
-                            Hackers de bancos
+                            <span>Hackers de bancos</span>
                         </li>
                     </ul>
                 </div>
@@ -255,5 +255,76 @@
             </div>
         </div>
     </section>
+    <!-- SECCION CURRICULUMS-->
+     <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnologias de la Información</h4>
+                        <span class="casa">Universidad Laica Eloy Alfaro de Manabí</span>
+                        <span class="fecha"></span>
+                        <p>Lorem ipsum inserte texto</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnologias de la Información</h4>
+                        <span class="casa">Universidad Laica Eloy Alfaro de Manabí</span>
+                        <span class="fecha"></span>
+                        <p>Lorem ipsum inserte texto</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnologias de la Información</h4>
+                        <span class="casa">Universidad Laica Eloy Alfaro de Manabí</span>
+                        <span class="fecha"></span>
+                        <p>Lorem ipsum inserte texto</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañia</span>
+                        <span class="fecha"></span>
+                        <p>Lorem ipsum inserte texto</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañia</span>
+                        <span class="fecha"></span>
+                        <p>Lorem ipsum inserte texto</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañia</span>
+                        <span class="fecha"></span>
+                        <p>Lorem ipsum inserte texto</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
 </body>
 </html>
